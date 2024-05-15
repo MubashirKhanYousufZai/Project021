@@ -1,0 +1,40 @@
+var Cake;
+(function (Cake) {
+    Cake[Cake["vanilla"] = 0] = "vanilla";
+    Cake[Cake["choclate"] = 4] = "choclate";
+    Cake[Cake["pineapple"] = 5] = "pineapple";
+    Cake[Cake["chocolava"] = 6] = "chocolava";
+    Cake[Cake["marble"] = 7] = "marble";
+})(Cake || (Cake = {}));
+var cakeFlavour = Cake.choclate;
+var cakeIndex = Cake[4];
+console.log(cakeIndex);
+console.log(cakeFlavour);
+var Car;
+(function (Car) {
+    Car[Car["supra"] = 0] = "supra";
+    Car[Car["gwagon"] = 5] = "gwagon";
+    Car[Car["austin_martin"] = 6] = "austin_martin";
+    Car[Car["revo"] = 7] = "revo";
+    Car[Car["civic"] = 8] = "civic";
+    Car[Car["grande"] = 9] = "grande";
+    Car[Car["city"] = 10] = "city";
+    Car[Car["gli"] = 11] = "gli";
+})(Car || (Car = {}));
+var cars = Car.gwagon;
+var carIndex = Car[5];
+console.log(carIndex);
+console.log(cars);
+var Calculator;
+(function (Calculator) {
+    Calculator[Calculator["addition"] = 0] = "addition";
+    Calculator[Calculator["subtraction"] = 1] = "subtraction";
+    Calculator[Calculator["multiplication"] = 2] = "multiplication";
+    Calculator[Calculator["division"] = 3] = "division";
+    Calculator[Calculator["reminder"] = 7] = "reminder";
+    Calculator[Calculator["exponention"] = 8] = "exponention";
+})(Calculator || (Calculator = {}));
+var operator = Calculator.reminder;
+var operatorIndex = Calculator[7];
+console.log(operator);
+console.log(operatorIndex);
